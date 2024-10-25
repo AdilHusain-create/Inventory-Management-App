@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+tortoise
+tortoise-orm
+fastapi-mail
+starlette
