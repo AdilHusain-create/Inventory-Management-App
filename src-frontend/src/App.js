@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import NavBar from "./components/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
-    <div>
-      <h2>Hello From IM App</h2>
-    </div>
+    <Router>
+      <NavBar />
+    </Router>
   );
 }
-
 export default App;
